@@ -1,0 +1,28 @@
+.bgimg {
+  background-image: url("background.gif");
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cover img {
+  min-width: 250px;
+  width: 100%;
+}
+
+.cover p {
+  text-align: center;
+  color: white;
+}
+
+.cover .hidden {
+  color: black !important;
+}
