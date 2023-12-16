@@ -24,5 +24,6 @@
 }
 
 .cover .hidden {
+  display: none !important;
   color: black !important;
 }
